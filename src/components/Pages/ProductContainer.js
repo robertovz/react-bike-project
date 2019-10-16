@@ -31,7 +31,7 @@ export default class ProductContainer extends Component {
                         return <h1 className="text-center my-5">{ category !== "" ?  category  : title }</h1>
                     }}
                 </ProductConsumer>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-3 col-md-4">
                             <ProductFilter />
